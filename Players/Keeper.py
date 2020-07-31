@@ -1,4 +1,4 @@
-from Player import Player
+from Players.Player import Player
 
 class Keeper(Player):
     def __init__(self, name, age, skill):
