@@ -55,7 +55,7 @@ class Team:
             midfielder_skill += (i.skill/3)
         return midfielder_skill
 
-    def upfront(self):
+    def striking(self):
         striker_skill = 0.0
         for i in self.strikers:
             striker_skill += i.skill
